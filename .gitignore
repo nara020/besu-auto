@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv
+*.egg-info/
+dist/
+build/
+
+# Besu generated files and directories
+besu-*/
+node*/
+networkFiles/
+logs/
+data/
+genesis.json
+static-nodes.json
+*.key
+*.pub
+*.priv
+*.toml
+!setup-besu.py
+!clean.py
+!requirements.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Environment
+.env
+*.log
